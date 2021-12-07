@@ -1,0 +1,12 @@
+﻿  compVision2.cpp
+C:\Users\55000\source\repos\compVision2\compVision2.cpp(34,31): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\55000\source\repos\compVision2\compVision2.cpp(35,35): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\55000\source\repos\compVision2\compVision2.cpp(36,40): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\55000\source\repos\compVision2\compVision2.cpp(37,40): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\55000\source\repos\compVision2\compVision2.cpp(53,40): warning C4244: =: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=cv::DataType<cv::RotatedRect>::channel_type
+          ]
+C:\Users\55000\source\repos\compVision2\compVision2.cpp(148,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  compVision2.vcxproj -> C:\Users\55000\source\repos\compVision2\x64\Debug\compVision2.exe

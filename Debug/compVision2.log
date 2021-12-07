@@ -1,0 +1,9 @@
+﻿  compVision2.cpp
+C:\Users\55000\source\repos\compVision2\compVision2.cpp(30,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+compVision2.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z) в функции "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ).
+compVision2.obj : error LNK2019: ссылка на неразрешенный внешний символ "private: char * __thiscall cv::String::allocate(unsigned int)" (?allocate@String@cv@@AAEPADI@Z) в функции "public: __thiscall cv::String::String(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0String@cv@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z).
+compVision2.obj : error LNK2019: ссылка на неразрешенный внешний символ "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ) в функции "public: __thiscall cv::String::~String(void)" (??1String@cv@@QAE@XZ).
+compVision2.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ) в функции "public: void __thiscall cv::Mat::release(void)" (?release@Mat@cv@@QAEXXZ).
+compVision2.obj : error LNK2019: ссылка на неразрешенный внешний символ "class cv::Mat __cdecl cv::imread(class cv::String const &,int)" (?imread@cv@@YA?AVMat@1@ABVString@1@H@Z) в функции _main.
+D:\opencv\build\x64\vc15\lib\opencv_world343d.lib : warning LNK4272: тип компьютера библиотеки "x64" конфликтует с типом целевого компьютера "x86"
+C:\Users\55000\source\repos\compVision2\Debug\compVision2.exe : fatal error LNK1120: неразрешенных внешних элементов: 5
