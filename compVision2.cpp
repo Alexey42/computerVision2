@@ -62,13 +62,13 @@ cv::Mat Normalize(cv::Mat img, int gamma, float beta) {
   vector<double> std;
   vector<double> mean;
   cv::meanStdDev(img, mean, std);
-  double root = sqrt(std[0] * std[0] + 0.0000000001);
+  double root = sqrt(std[0] * std[0]);
   cv::Mat tmp2;
   cv::subtract(img, mean[0], tmp2);
   cv::Mat div;
   cv::divide(tmp2, root, div);
   div = div.mul(gamma);
-  //div += cv::Scalar(beta * 1.1);
+  
   return div;
 }
 
